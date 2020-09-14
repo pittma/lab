@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2020-09-14 Mon 16:15 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Internal &infin;-Categorical Models of Depedent Type Theory</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="dan pittman" />
+<link rel="stylesheet" href="../static/main.css">
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    "HTML-CSS": {
+      styles: {".MathJax_Preview": {visibility: "hidden"}}
+    },
+    tex2jax: {inlineMath: [["\\(","\\)"]]},
+    TeX: {extensions: ["AMSmath.js","AMSsymbols.js",
+                       "http://sonoisa.github.io/xyjax_ext/xypic.js"]}
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js"></script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Internal &infin;-Categorical Models of Depedent Type Theory
+<br />
+<span class="subtitle">Towards 2LTT eating HoTT</span>
+</h1>
+<p>
+<a href="file:///home/dpitt/src/lab/static/2009.01883.pdf">Paper</a>
+</p>
+
+<div id="outline-container-orgc29fa5b" class="outline-2">
+<h2 id="orgc29fa5b">Introduction</h2>
+<div class="outline-text-2" id="text-orgc29fa5b">
+<dl class="org-dl">
+<dt>Semicategory</dt><dd>All the category things mod identities (like a
+semigroup).</dd>
+</dl>
+</div>
+<div id="outline-container-org8d88d7a" class="outline-3">
+<h3 id="org8d88d7a">Other models of type theory</h3>
+<div class="outline-text-3" id="text-org8d88d7a">
+</div>
+<div id="outline-container-org3a253c9" class="outline-4">
+<h4 id="org3a253c9">Setoid (Palmgren 2019)</h4>
+</div>
+<div id="outline-container-org40513fb" class="outline-4">
+<h4 id="org40513fb">Parametric (Bernardy 2015)</h4>
+</div>
+<div id="outline-container-orge1a5997" class="outline-4">
+<h4 id="orge1a5997">Groupoids (Hofmann &amp; Striecher 1996)</h4>
+<div class="outline-text-4" id="text-orge1a5997">
+</div>
+<div id="outline-container-orgb27a93d" class="outline-5">
+<h5 id="orgb27a93d">Sozeau and Tabareau implementation (2014)</h5>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd1f6445" class="outline-3">
+<h3 id="orgd1f6445">Initiality</h3>
+<div class="outline-text-3" id="text-orgd1f6445">
+<ul class="org-ul">
+<li>Syntactic \(\equiv\) term</li>
+<li>CwF refresher: A category \(\mathcal{C}\) with a presheaf of families
+where the presheaf is split into two “special” functors: \(Ty\) and
+\(Tm\). \(\mathcal{C}\) is the category of contexts and substitutions
+where the terminal object is the empty context.
+<dl class="org-dl">
+<dt>Terminal object</dt><dd>That's the thing that everyone can reach,
+uniquely (up to blah blah blah).
+<ul class="org-ul">
+<li>The singleton set in \(\mathbf{Set}\).</li>
+</ul></dd>
+
+<dt>(no term)</dt><dd><b>NOTE</b>: What's it mean in terms of relationships between a
+category with initial and terminal objects and order theory?</dd>
+</dl></li>
+<li>A Generalized Algebraic Theory (GAT) is apparently where <i>sorts</i>
+come from. The PTS work is creating a GAT out of type theories?</li>
+<li><p>
+What it means to have an “initial” model.
+</p>
+<blockquote>
+<p>
+We have a morphism of models from the initial model to any other
+model, and in particular to the standard model. This means that a
+universe in the host theory is a model of type theory itself.
+</p>
+</blockquote></li>
+</ul>
+</div>
+<div id="outline-container-org81b41ae" class="outline-4">
+<h4 id="org81b41ae">The initial model is syntax</h4>
+<div class="outline-text-4" id="text-org81b41ae">
+<p>
+They have this rule:
+</p>
+
+<p>
+\[
+(A B : Ty\ \Gamma) \rightarrow (A = B) + \neg(A = B)
+\]
+</p>
+
+<p>
+Which is to say, it's decidable because it's either true or its
+not. Since this decidable equality is in the host theory, it's
+intensional! It's a part of the metatheory, and is therefore
+syntactic.
+</p>
+
+<p>
+We should, when doing proofs in type theory, think of intensional
+equality as <i>syntactic</i>.
+</p>
+
+<p>
+<b>NOTE</b>: This really cements the intuition from set theory of what
+exactly extensional equality means in a type theory. It also gives way
+to the obvious extensional meaning of funext.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd28a8b8" class="outline-3">
+<h3 id="orgd28a8b8">Uniqueness of Identity Proofs (UIP)</h3>
+<div class="outline-text-3" id="text-orgd28a8b8">
+<ul class="org-ul">
+<li>HoTT rejects UIP (think about it, because univalence turns
+not-so-unique equalities into equivalences).</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
