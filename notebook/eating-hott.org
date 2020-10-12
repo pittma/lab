@@ -1,7 +1,7 @@
-#+TITLE: Internal \infty-Categorical Models of Depedent Type Theory
+#+TITLE: Internal \infty-Categorical Models of Dependent Type Theory
 #+SUBTITLE: Towards 2LTT eating HoTT
 
-[[file:~/src/lab/static/eating-hott.pdf][Paper]]
+[[../static/eating-hott.pdf][Paper]]
 
 * Introduction
 - Semicategory :: All the category things mod identities (like a
