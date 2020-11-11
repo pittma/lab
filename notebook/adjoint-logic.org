@@ -1,0 +1,4 @@
+#+TITLE: Adjoint Logic
+
+Initial exposure here: [[https://arxiv.org/pdf/2002.04607.pdf][/Back to Futures/]], Klaus Pruiksma and Frank
+Pfenning. Which I know nothing about.
