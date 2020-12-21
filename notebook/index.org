@@ -1,5 +1,5 @@
 #+TITLE: dan's lab notebook
 
-- [[file:adjoint-logic.org][Adjoint Logic]]
 - [[file:coherence.org][Coherence]]
-- [[file:eating-hott.org][Internal \infty-Categorical Models of Dependent Type Theory]]
+- [[file:adjoint-logic.org][Adjoint Logic]]
+- [[file:eating-hott.org][Internal \infty-Categorical Models of Depedent Type Theory]]
