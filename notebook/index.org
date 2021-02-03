@@ -2,4 +2,5 @@
 
 - [[file:coherence.org][Coherence]]
 - [[file:adjoint-logic.org][Adjoint Logic]]
-- [[file:eating-hott.org][Internal \infty-Categorical Models of Depedent Type Theory]]
+- [[file:eating-hott.org][Internal \infty-Categorical Models of Dependent Type Theory]]
+- [[file:petri-nets-and-graphs.org][Petri Nets, Graphs, and Concurrency]]
