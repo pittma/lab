@@ -1,0 +1,9 @@
+#+TITLE: Propositional Resizing
+
+HoTT book, 3.5 and [[https://arxiv.org/abs/2102.08812]]. Effectively a way
+to recover impredicativity from a predicative theory by making the
+following map an equivalence.
+
+$$
+\textsf{Prop}_{\mathcal{U}_i} \rightarrow \textsf{Prop}_{\mathcal{U}_{i + 1}}
+$$
